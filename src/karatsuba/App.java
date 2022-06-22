@@ -28,7 +28,7 @@ public class App {
          * if both numbers are single digit, perform basic multiplication and return
          * the product before moving further
          */
-        if(x < 10 && y < 10) {
+        if(x < 10 || y < 10) {
             return x * y;
         }
         
